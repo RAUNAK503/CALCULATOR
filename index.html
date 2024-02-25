@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="background">
+    <div class="buttons">
+      <div class="display" id="display">0</div>
+      <button class="display7" onclick="ToDisplay('7')">7</button>
+      <button class="display8" onclick="ToDisplay('8')">8</button>
+      <button class="display9" onclick="ToDisplay('9')">9</button>
+      <button class="displayDEL" onclick="clearLastElement()">DEL</button>
+      <button class="display4" onclick="ToDisplay('4')">4</button>
+      <button class="display5" onclick="ToDisplay('5')">5</button>
+      <button class="display6" onclick="ToDisplay('6')">6</button>
+      <button class="display+" onclick="ToDisplay('+')">+</button>
+      <button class="display1" onclick="ToDisplay('1')">1</button>
+      <button class="display2" onclick="ToDisplay('2')">2</button>
+      <button class="display3" onclick="ToDisplay('3')">3</button>
+      <button class="display-" onclick="ToDisplay('-')">-</button>
+      <button class="displaydot" onclick="ToDisplay('.')">.</button>
+      <button class="display0" onclick="ToDisplay('0')">0</button>
+      <button class="display/" onclick="ToDisplay('/')">/</button>
+      <button class="displayx" onclick="ToDisplay('*')">*</button>
+      <button class="RESET" onclick="clearDisplay()">RESET</button>
+      <button class="displayRESULT" onclick="calculateResult()">=</button>
+    </div>    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 5px;
+    grid-auto-rows: 50px;
+}
+
+.buttons{
+    width: 400px;
+    font-size: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.RESET{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #3B4664;
+    color: white;
+    font-size: 30px;
+} 
+.displayRESULT{
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    font-size: 40px;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4664;
+    height: 740px;
+}
+.displayDEL{
+    background-color: #3B4664;
+    color: white;
+    font-size: 30px;
+}
+.displaydot{
+    font-size: 30px;
+}
+.display{
+   background-color: #000000;
+    color: white;
+    display: grid;
+    justify-content: end;
+    margin-bottom: 10px;
+    height: 50px;
+}
